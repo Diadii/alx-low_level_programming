@@ -8,6 +8,6 @@ int main(void)
 	char c;
 	c = print_alphabet_x10();
 
-	_putchar(print_alphabet_x10());
+	_putchar(c);
 	return (0);
 }
