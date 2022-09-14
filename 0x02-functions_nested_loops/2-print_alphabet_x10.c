@@ -3,11 +3,17 @@
  * print_alphabet_x10 - prints alphabet 10 times
  * return: 0
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	char c;
-	c = print_alphabet_x10();
+	int j;
+	int i;
 
-	_putchar(c);
-	return (0);
+	for (j = 0; j < 10; j++)
+	{
+		for (i = 'a'; i <= 'z'; i++)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');	
+	}
 }
