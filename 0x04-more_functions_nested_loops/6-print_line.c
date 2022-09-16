@@ -3,7 +3,6 @@
  * print_line - prints a line on the terminal
  *
  * @n: takes interger type input
- *
  */
 void print_line(int n)
 {
